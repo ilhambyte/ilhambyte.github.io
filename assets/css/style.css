@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #d3a200;
+  background: #ffc300;
   color: #fff;
 }
 .back-to-top.active {
@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #ffc300;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -286,7 +286,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #DADBBD;
+  color: #cccccb;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -1036,7 +1036,7 @@ section {
 #footer .social-links .twitter {
   font-size: 18px;
   display: inline-block;
-  background:linear-gradient(120deg, #66757f, #00ACEE, #36D8FF, #b0d1e7, #ffffff);
+  background:linear-gradient(120deg, rgb(0, 153, 255), #00ACEE, #36D8FF, #8cd1ff, #ffffff);
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1087,6 +1087,25 @@ section {
 }
 #footer .social-links .instagram:hover {
   background: #c13584;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .social-links .github {
+  font-size: 18px;
+  display: inline-block;
+  background:linear-gradient(150deg, #4078c0, #6e5494, #bd2c00, #c9510c, #6cc644, #fafafa);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links .github:hover {
+  background: #000000;
   color: #fff;
   text-decoration: none;
 }
